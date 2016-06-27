@@ -1,0 +1,1 @@
+$(window).scroll(function(){var o=$(".navigation");scroll=$(window).scrollTop(),scrollBottom=o.offset().top,windowHeight=$(window).height(),firstStep=$("#first-step"),scroll>=scrollBottom&&(o.addClass("fixed"),firstStep.addClass("margin-top")),scrollBottom<windowHeight&&(o.removeClass("fixed"),firstStep.removeClass("margin-top"))});

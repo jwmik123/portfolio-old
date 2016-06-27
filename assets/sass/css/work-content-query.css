@@ -1,0 +1,31 @@
+@media only screen and (min-width: 992px) {
+  .content-wrapper {
+    height: 2000px;
+    background-color: pink;
+    margin-left: 110px;
+    margin-right: 110px;
+    z-index: -2;
+    color: #323232; }
+
+  .content-wrapper h1 {
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 30px; }
+
+  .content-wrapper .my-work {
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+
+  .content-wrapper .my-work .article {
+    background-image: url(../images/article-backgrounds/article-1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    border: 3px dotted red;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+    z-index: 1; } }
